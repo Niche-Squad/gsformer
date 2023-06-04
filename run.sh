@@ -8,4 +8,10 @@ python preprocessing/synthesize_f1.py
 python make_images.py
 
 # model training
+python train.py
+
+# model testing
+python inference.py
+python submission.py
+
 
