@@ -1,0 +1,10 @@
+*.gz
+*.csv
+*.pyc
+*.pt
+**/data/*
+
+/data/*
+!/data/splits.csv
+
+arc/
