@@ -11,3 +11,4 @@ data/raw/*
 !out/preds.csv
 
 arc/
+doc/

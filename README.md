@@ -1,5 +1,9 @@
 # GSformer
 
+A transformer-based model for genomic selection.
+
+![GSformer](res/gsformer.jpg)
+
 ## Workflow
 
 ### Step 1 - Define Data split
@@ -20,7 +24,7 @@
   - input - `data/plink/geno.raw`
   - output - `data/g_parents.csv`
 
-- `preprocessing/synthesize_f1.py` - Synthesize back the F1 genotypes from parental genotypes
+- `preprocessing/synthesize_f1.py` - Synthesize the F1 genotypes back from parental genotypes
   - input - `data/g_parents.csv`
   - output - `data/g_f1.csv`
 
