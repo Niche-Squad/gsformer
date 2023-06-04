@@ -14,8 +14,12 @@ DIR_DATA = os.path.join(ROOT, "data")
 DIR_IMAGES = os.path.join(DIR_DATA, "images")
 PATH_gparents = os.path.join(DIR_DATA, "g_parents.csv")
 PATH_splits = os.path.join(DIR_DATA, "splits.csv")
-PATH_ec_train = os.path.join(DIR_DATA, "6_Training_EC_Data_2014_2021.csv")
-PATH_ec_test = os.path.join(DIR_DATA, "6_Testing_EC_Data_2022.csv")
+PATH_ec_train = os.path.join(
+    DIR_DATA, "raw", "Training_Data", "6_Training_EC_Data_2014_2021.csv"
+)
+PATH_ec_test = os.path.join(
+    DIR_DATA, "raw", "Testing_Data", "6_Testing_EC_Data_2022.csv"
+)
 
 
 def main():
