@@ -2,9 +2,12 @@
 *.csv
 *.pyc
 *.pt
-**/data/*
+*.zip
 
-/data/*
-!/data/splits.csv
+data/plink/*
+data/raw/*
+
+!out/submission.csv
+!out/preds.csv
 
 arc/
